@@ -1,0 +1,25 @@
+{
+  "name": "serverless-plugin-embedded-env-in-code",
+  "version": "0.1.0",
+  "description": "Replace environment variables with static strings before deployment. It is for Lambda @ Edge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zaru/serverless-plugin-embedded-env-in-code.git"
+  },
+  "keywords": [
+    "serverless",
+    "lambda",
+    "edge",
+    "env"
+  ],
+  "author": "zaru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaru/serverless-plugin-embedded-env-in-code/issues"
+  },
+  "homepage": "https://github.com/zaru/serverless-plugin-embedded-env-in-code#readme"
+}
