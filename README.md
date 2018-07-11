@@ -1,6 +1,9 @@
-# ServerlessFramework Plugin
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+[![npm version](https://badge.fury.io/js/serverless-plugin-embedded-env-in-code.svg)](https://badge.fury.io/js/serverless-plugin-embedded-env-in-code)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Embedded env in Code
+# Embedded env in Code
+## ServerlessFramework Plugin
 
 This plugin will replace environment variables with static strings before deployment.
 It’s for Lambda@Edge.
