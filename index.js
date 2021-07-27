@@ -21,9 +21,7 @@ class ServerlessPlugin {
       const func = this.serverless.service.functions[k]
       if (func.embedded) {
         func.embedded.files.forEach((file) => {
-          fs.copyFileSync(`${file}`, `${file}.org`, (e) => {
-            console.log(e)
-          })
+          fs.copyFileSync(`${file}`, `${file}.org`)
           let result = fs.readFileSync(file, 'utf8')
           Object.keys(func.embedded.variables).forEach((k2) => {
             const val = func.embedded.variables[k2]
